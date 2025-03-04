@@ -9,6 +9,9 @@ elementButton.addEventListener("click", function (){
        elementPick.src = "../img/yellow_lamp.png";
        elementPick.alt = "lampadina accesa";
        elementButton.innerText = "Spegni";
+       elementButton.style.fontSize = "25px";
+       elementButton.style.padding = "10px";
+       elementButton.style.color = "blue";
 
    } else {
     elementPick.src =  "../img/white_lamp.png";
