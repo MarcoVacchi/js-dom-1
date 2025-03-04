@@ -5,9 +5,10 @@ const elementButton = document.getElementById ("my-button");
 //console.log(elementPick);
 
 elementButton.addEventListener("click", function (){
-   if (addEventListener) {elementPick.src =  "../img/yellow_lamp.png";
-    elementPick.alt = "lampadina accesa";
-    elementButton.innerText = "Spegni";
+   if (elementPick.src.includes("white_lamp.png")) {
+       elementPick.src = "../img/yellow_lamp.png";
+       elementPick.alt = "lampadina accesa";
+       elementButton.innerText = "Spegni";
 
    } else {
     elementPick.src =  "../img/white_lamp.png";
