@@ -1,0 +1,12 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: chocolate;
+}
+
+.btn {
+    padding: 10px;
+    font-size: 25px;
+    background-color: blueviolet;
+}
